@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.2/animation_utility.css">
+    <link rel="icon" type="image/x-icon" href="image/Pav-icon.png">
+    <title>Reixa - Service Detail</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="sticky-top bg-accent-primary px-5">
+        <div class="r-container">
+            <nav class="navbar">
+                <div class="container-fluid ps-3 gap-3">
+                    <div class="me-auto">
+                        <button class="btn btn-toggler-accent" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDark" aria-controls="offcanvasDark"><i
+                                class="rtmicon rtmicon-bars-sort-right"></i></button>
+                        <div class="offcanvas offcanvas-end offcanvas-fullwidth" tabindex="-1" id="offcanvasDark"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header bg-transparent">
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="r-container d-flex flex-column gap-3">
+                                    <div class="d-flex flex-column">
+                                        <a href="index.html" class="d-flex" style="justify-self: end;">
+                                            <div class="navigation">
+                                                <div class="d-flex flex-row gap-3 align-item-start">
+                                                    <span class="header-text">01</span>
+                                                    <h4 class="m-0">Homepage</h4>
+                                                </div>
+                                                <i class="rtmicon rtmicon-arrow-up-right fw-bold"></i>
+                                            </div>
+                                        </a>
+                                        <hr>
+                                        <a href="about.html" class="d-flex" style="justify-self: end;">
+                                            <div class="navigation">
+                                                <div class="d-flex flex-row gap-3 align-item-start">
+                                                    <span class="header-text">02</span>
+                                                    <h4 class="m-0">About Us</h4>
+                                                </div>
+                                                <i class="rtmicon rtmicon-arrow-up-right fw-bold"></i>
+                                            </div>
+                                        </a>
+                                        <hr>
+                                        <a href="service.html" class="d-flex" style="justify-self: end;">
+                                            <div class="navigation">
+                                                <div class="d-flex flex-row gap-3 align-item-start">
+                                                    <span class="header-text">03</span>
+                                                    <h4 class="m-0">Services</h4>
+                                                </div>
+                                                <i class="rtmicon rtmicon-arrow-up-right fw-bold"></i>
+                                            </div>
+                                        </a>
+                                        <hr>
+                                        <div class="pages-dropdown">
+                                            <div class="navigation active">
+                                                <div class="d-flex flex-row gap-3 align-items-center">
+                                                    <span class="header-text">04</span>
+                                                    <h4 class="m-0">Pages</h4>
+                                                </div>
+                                                <i class="rtmicon rtmicon-arrow-up-right fw-bold"></i>
+                                            </div>
+                                            <ul class="sub-list">
+                                                <li><a href="team.html" class="link">Our Team</a></li>
+                                                <li><a href="faq.html" class="link">FAQ</a></li>
+                                                <li><a href="pricing.html" class="link">Pricing Plan</a></li>
+                                                <li><a href="service_detail.html" class="link active">Service Detail</a>
+                                                </li>
+                                                <li><a href="portfolio.html" class="link">Portfolio</a></li>
+                                                <li><a href="portfolio_detail.html" class="link">Portfolio Detail</a>
+                                                </li>
+                                                <li><a href="404.html" class="link">404 Page</a></li>
+                                                <li><a href="single_blog.html" class="link">Single Blog</a></li>
+                                            </ul>
+                                        </div>
+                                        <hr>
+                                        <a href="blog.html" class="d-flex" style="justify-self: end;">
+                                            <div class="navigation">
+                                                <div class="d-flex flex-row gap-3 align-item-start">
+                                                    <span class="header-text">05</span>
+                                                    <h4 class="m-0">Blog</h4>
+                                                </div>
+                                                <i class="rtmicon rtmicon-arrow-up-right fw-bold"></i>
+                                            </div>
+                                        </a>
+                                        <hr>
+                                        <a href="contact.html" class="d-flex" style="justify-self: end;">
+                                            <div class="navigation">
+                                                <div class="d-flex flex-row gap-3 align-item-start">
+                                                    <span class="header-text">06</span>
+                                                    <h4 class="m-0">Contact Us</h4>
+                                                </div>
+                                                <i class="rtmicon rtmicon-arrow-up-right fw-bold"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-container gap-2 mt-5">
+                                        <a href="https://www.facebook.com" class="social-item white">
+                                            <i class="fa-brands fa-xs fa-facebook-f"></i>
+                                        </a>
+                                        <a href="https://www.twitter.com" class="social-item white">
+                                            <i class="fa-brands fa-xs fa-twitter"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com" class="social-item white">
+                                            <i class="fa-brands fa-xs fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="d-flex flex-row align-items-center font-2 gap-3">
+                                            <i class="rtmicon rtmicon-classic-phone  fs-4"></i>
+                                            <span>0761-8523-398</span>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center font-2 gap-3">
+                                            <i class="rtmicon rtmicon-envelope fs-4"></i>
+                                            <span>hello@domainsite.com</span>
+                                        </div>
+                                        <div class="d-flex flex-row font-2 gap-3">
+                                            <i class="rtmicon rtmicon-location fs-4"></i>
+                                            <span>KLLG st, No.99, Pku City, ID 28289</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo-container me-auto">
+                        <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="social-container gap-2">
+                        <a href="https://www.facebook.com" class="social-item">
+                            <i class="fa-brands fa-xs fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.twitter.com" class="social-item">
+                            <i class="fa-brands fa-xs fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com" class="social-item">
+                            <i class="fa-brands fa-xs fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="w-max-content text-center">
+                        <a href="contact.html" class="read-more">
+                            <span>Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Main -->
+    <main>
+        <!-- Banner -->
+        <div class="section">
+            <div class="r-container d-flex flex-column gap-3">
+                <div class="d-flex flex-xl-row flex-column gap-3 align-items-end justify-content-between adr-9">
+                    <h2 class="m-0 scrollanimation animated fadeInDown adr-9" style="max-width: 800px;">The Power of Our
+                        Comprehensive Services</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb scrollanimation animated fadeInRight adr-9 adl-1">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Service Detail</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="row row-cols xl-2 row-cols-1">
+                    <div class="col col-xl-8 mb-3">
+                        <div class="row row-cols-xl-3 row-cols-1">
+                            <div class="col col-xl-7 mb-3">
+                                <img src="image/dummy-img-1920x1280.jpg" class="img-fluid rounded-4 h-100" alt="">
+                            </div>
+                            <div class="col col-xl-5 mb-3">
+                                <div class="d-flex flex-column align-items-end position-relative">
+                                    <button type="button"
+                                        class="request-loader banner position-absolute z-2 top-0 right-0 scrollanimation animated zoomIn adr-9 adl-3"
+                                        style="margin-top: -2rem; margin-right: -2rem;" data-bs-toggle="modal"
+                                        data-bs-target="#e119">
+                                        <i class="fa-solid fa-play ms-1"></i>
+                                    </button>
+                                    <img src="image/dummy-img-1920x1280.jpg" class="img-fluid masked-img tenth"
+                                        style="aspect-ratio: 1/1;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xl-4 mb-3">
+                        <div class="d-flex flex-column gap-5 h-100 justify-content-end">
+                            <p class="scrollanimation animated fadeInDown adr-9 adl-3">With a mix of creativity,
+                                expertise, and innovation, we empower your brand to stand out, grow, and thrive in an
+                                ever-evolving marketplace.</p>
+                            <div class="d-flex flex-row flex-wrap gap-2">
+                                <span class="tags scrollanimation animated fadeIn adr-9 adl-4">Brand Design</span>
+                                <span class="tags scrollanimation animated fadeIn adr-9 adl-5">Web Development</span>
+                                <span class="tags scrollanimation animated fadeIn adr-9 adl-6">Web Design</span>
+                                <span class="tags scrollanimation animated fadeIn adr-9 adl-6">Digital Marketing</span>
+                                <span class="tags scrollanimation animated fadeIn adr-9 adl-5">Photography</span>
+                                <span class="tags scrollanimation animated fadeIn adr-9 adl-4">Graphic Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="e119" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content bg-dark-color">
+                        <iframe class="ifr-video" src="https://www.youtube.com/embed/FK2RaJ1EfA8?autoplay=1"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Service Detail -->
+        <div class="section">
+            <div class="r-container">
+                <div class="row row-cols-xl-2 row-cols-1">
+                    <div class="col col-xl-4 mb-4">
+                        <div class="d-flex flex-column gap-3">
+                            <img src="image/dummy-img-600x800.jpg" alt="" class="img-fluid rounded-4 masked-img scrollanimation animated fadeIn adr-9"
+                                style="aspect-ratio: 1/2;">
+                            <div
+                                class="d-flex flex-column gap-3 rounded-3 p-5 bg-accent-color-2 scrollanimation animated slideInLeft adr-9">
+                                <h4 class="accent-color">Other Services</h4>
+                                <ul class="list-group">
+                                    <li class="list-group-item border-0 p-0">
+                                        <a href=""
+                                            class="link d-flex flex-row rounded-0 align-items-center justify-content-between gap-3">
+                                            Brand Design
+                                            <div class="icon-box">
+                                                <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <hr class="accent-color" style="opacity: 1;">
+                                    <li class="list-group-item border-0 p-0">
+                                        <a href=""
+                                            class="link d-flex flex-row rounded-0 align-items-center justify-content-between gap-3">
+                                            Web Design & Development
+                                            <div class="icon-box">
+                                                <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <hr class="accent-color" style="opacity: 1;">
+                                    <li class="list-group-item border-0 p-0">
+                                        <a href=""
+                                            class="link d-flex flex-row rounded-0 align-items-center justify-content-between gap-3">
+                                            Digital Marketing & SEO
+                                            <div class="icon-box">
+                                                <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <hr class="accent-color" style="opacity: 1;">
+                                    <li class="list-group-item border-0 p-0">
+                                        <a href=""
+                                            class="link d-flex flex-row rounded-0 align-items-center justify-content-between gap-3">
+                                            Graphic Design
+                                            <div class="icon-box">
+                                                <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <hr class="accent-color" style="opacity: 1;">
+                                    <li class="list-group-item border-0 p-0">
+                                        <a href=""
+                                            class="link d-flex flex-row rounded-0 align-items-center justify-content-between gap-3">
+                                            Photography & Videography
+                                            <div class="icon-box">
+                                                <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="position-relative overflow-hidden rounded-3 bg-accent-color accent-color-2 scrollanimation animated slideInLeft adr-9 adl-1">
+                                <div class="position-relative p-5" style="z-index: 2;">
+                                    <div
+                                        class="d-flex flex-column mx-auto text-center align-items-center text-white gap-3 accent-color-2">
+                                        <div class="border-bottom border-primary" style="width: max-content;">
+                                            <h6 class="accent-color-2">Get In Touch</h6>
+                                        </div>
+                                        <h4 class="text-white">Let’s Create a
+                                            Beautiful Space Together</h4>
+                                        <div class="w-max-content">
+                                            <a href="contact.html" class="btn btn-accent cta d-flex flex-row gap-2">
+                                                <span>Contact Us</span>
+                                                <i class="rtmicon rtmicon-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xl-8 mb-4">
+                        <img src="image/dummy-img-1920x1280.jpg" class="img-fluid mb-3 masked-img seventh scrollanimation animated fadeIn adr-9" alt="">
+                        <h3 class="scrollanimation animated fadeIn adr-9">Web Design & Development</h3>
+                        <p class="scrollanimation animated fadeIn adr-9 adl-1">
+                            Our Web Design & Development service offers comprehensive, custom-built websites tailored to
+                            your business goals. Whether you're looking for a simple, stylish informational website or a
+                            feature-rich eCommerce platform, our team of skilled designers and developers will bring
+                            your vision to life. We combine cutting-edge design with robust functionality, ensuring that
+                            your website is visually appealing, user-friendly, and optimized for performance.
+                        </p>
+                        <p class="scrollanimation animated fadeIn adr-9 adl-3">Our Web Design & Development service
+                            includes the following key phases:</p>
+                        <ul class="list-circle d-flex flex-column gap-2 text-color-2 scrollanimation animated fadeIn adr-9 adl-3">
+                            <li>Initial Consultation & Strategy:</li>
+                            <p class="m-0">We start with understanding your business, goals, target audience, and
+                                specific needs. Based on this information, we craft a tailored strategy that ensures
+                                your website aligns with your vision and serves your business objectives effectively.
+                            </p>
+                            <li>Custom Website Design:</li>
+                            <p class="m-0">Our design team creates unique and engaging designs that represent your
+                                brand’s identity. This includes:</p>
+                            <ul class="list-circle">
+                                <li>Wireframes and UI/UX design</li>
+                                <li>Mobile-responsive layouts</li>
+                                <li>Interactive elements and animations</li>
+                                <li>Visual assets such as icons, images, and branding elements</li>
+                            </ul>
+                            <li>Website Development:</li>
+                            <p class="m-0">Our developers build the website using modern, clean code, ensuring it’s
+                                fast, secure, and scalable. Development includes:</p>
+                            <ul class="list-circle">
+                                <li>HTML5, CSS3, JavaScript, and other necessary front-end technologies</li>
+                                <li>Content Management System (CMS) integration (e.g., WordPress, Drupal, or custom CMS)
+                                </li>
+                                <li>eCommerce platforms (e.g., WooCommerce, Shopify, Magento)</li>
+                                <li>Custom features, forms, and API integrations</li>
+                                <li>Cross-browser compatibility and mobile optimization</li>
+                            </ul>
+                        </ul>
+                        <p class="scrollanimation animated fadeInUp adr-9 adl-8">
+                            By choosing our service, you're not just getting a website; you're investing in a digital
+                            presence that will help you engage your audience, increase conversions, and achieve
+                            long-term success online.
+                            We look forward to working with you to create a website that stands out and supports your
+                            business's success for years to come. Let’s make your online vision a reality!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="section py-5">
+            <div class="d-flex flex-column gap-3 px-xl-5 p-4 bg-text-color rounded-4 accent-color-primary h-100">
+                <div
+                    class="d-flex flex-row gap-3 flex-wrap align-items-center justify-content-xl-start justify-content-center">
+                    <span class="text-color-2 large-text">Unlocking</span>
+                    <span class="accent-color-primary large-text">the Power</span>
+                    <span class="text-color-2 large-text">of</span>
+                    <span class="accent-color-primary large-text">Creativity</span>
+                    <img src="image/star-of-life-grey.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="d-flex flex-xl-row flex-column gap-xl-5 gap-3 justify-content-between mt-5">
+                    <div class="d-flex flex-column gap-3">
+                        <div class="d-flex flex-column gap-3">
+                            <a href="" class="link">
+                                Home
+                            </a>
+                            <a href="" class="link">
+                                About Us
+                            </a>
+                            <a href="" class="link">
+                                Services
+                            </a>
+                            <a href="" class="link">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        <div class="d-flex flex-column gap-3">
+                            <a href="" class="link">
+                                FAQs
+                            </a>
+                            <a href="" class="link">
+                                Portfolio
+                            </a>
+                            <a href="" class="link">
+                                Articles
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        <div class="social-container mb-xl-0 mb-3 gap-2">
+                            <a href="https://www.facebook.com" class="social-item white">
+                                <i class="fa-brands fa-xs fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com" class="social-item white">
+                                <i class="fa-brands fa-xs fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com" class="social-item white">
+                                <i class="fa-brands fa-xs fa-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com" class="social-item white">
+                                <i class="fa-brands fa-xs fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex flex-xl-row flex-column align-items-center font-2 gap-3">
+                                <i class="rtmicon rtmicon-classic-phone  fs-4"></i>
+                                <span>0761-8523-398</span>
+                            </div>
+                            <div class="d-flex flex-xl-row flex-column align-items-center font-2 gap-3">
+                                <i class="rtmicon rtmicon-envelope fs-4"></i>
+                                <span>hello@domainsite.com</span>
+                            </div>
+                            <div class="d-flex flex-xl-row flex-column font-2 gap-3">
+                                <i class="rtmicon rtmicon-location fs-4"></i>
+                                <span>KLLG st, No.99, Pku City, ID 28289</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        <p class="accent-color-primary">Keep Your Idea Fresh</p>
+                        <div class="d-flex align-items-center">
+                            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                                <div id="liveToast" class="toast success_msg_subscribe bg-dark-transparent text-white"
+                                    role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="d-flex">
+                                        <div class="toast-body">
+                                            Your Subscribe Send Successfully!.
+                                        </div>
+                                        <button type="button" class="btn me-2 m-auto" data-bs-dismiss="toast"
+                                            aria-label="Close">
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <form class="d-flex flex-row gap-3 justify-content-center needs-validation form" novalidate>
+                                <input type="text" name="action" value="subscribe" hidden>
+                                <div class="d-flex flex-xl-row flex-column gap-xl-0 gap-2">
+                                    <div>
+                                        <input type="email"
+                                            class="form-control rounded-4 rounded-end-0 subscribe px-4 py-3"
+                                            placeholder="Your Email" name="email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid email format (e.g.,
+                                            user@example.com).
+                                        </div>
+                                    </div>
+                                    <button
+                                        class="btn btn-accent px-4 py-3 rounded-4 rounded-start-0 justify-content-center submit_subscribe"
+                                        type="submit">
+                                        <span>Subscribe</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <hr class="accent-color-4" style="opacity: 1;">
+                <div class="d-flex flex-xl-row flex-column gap-2 align-items-center justify-content-between">
+                    <span class="text-white fs-6 font-2">
+                        Copyright © 2024 Rometheme. All Rights Reserved.
+                    </span>
+                    <span class="text-white fs-6 font-2">
+                        hello@domainsite.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+    <script src="js/vendor/fslightbox.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.0/oyethemes_onscroll_animation.js"></script>
+</body>
+
+</html>
